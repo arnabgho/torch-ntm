@@ -19,7 +19,7 @@
 require('../')
 require('./util')
 require('sys')
-
+unpack=table.unpack
 torch.manualSeed(0)
 
 local config = {

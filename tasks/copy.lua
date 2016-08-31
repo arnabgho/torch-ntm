@@ -12,7 +12,7 @@ require('../')
 require('./util')
 require('optim')
 require('sys')
-
+unpack=table.unpack
 torch.manualSeed(0)
 
 -- NTM config
